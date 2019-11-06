@@ -6,7 +6,7 @@ Created on Tue Nov  5 21:21:14 2019
 """
 
 from flask_frozen import Freezer
-from myapp import app
+from app import app
 
 freezer = Freezer(app)
 
